@@ -25,6 +25,8 @@ footer {
 
 .footer-outer-container {
 }
+
+
 .profile-photo-container {
     height: 200px;
     width: 200px;
@@ -33,4 +35,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 4px black;
 }
