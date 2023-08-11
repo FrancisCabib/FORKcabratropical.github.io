@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <style>
+      .btn-link {
+        color: #000000;
+        text-decoration: none;
+      }
+      .btn-link:hover {
+        color: #656565;
+      }
+
+      .about-me-social-links > li > a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .about-me-social-links > li {
+        padding: 0 10px;
+      }
+      .about-me-social-links {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1em 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg bg-white fixed-top py-3">
+          <div class="container">
+            <a class="navbar-brand" href="index.html"> Angelica Díaz </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                  >
+                    Proyectos
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="about.html"
+                  >
+                    Sobre mí
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cv.html">Curriculum</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <div class="container mt-5">
+            <div class="row">
+              <div
+                class="col-md-6 d-flex align-items-center justify-content-center"
+              >
+                <img
+                  src="assets/img/fotoperfil3.png"
+                  class="img-fluid"
+                  alt="Mi Foto"
+                />
+              </div>
+              <div class="col-md-6">
+                <h2>Sobre mí</h2>
+                <p>
+                  Mi nombre es Angelica y soy un apasionada del diseño. Me
+                  encanta diseñar. Con 8 años de experiencia en la industria, he
+                  tenido la oportunidad de trabajar en Cornershop by Uber y
+                  colaborar como Cencosud.
+                </p>
+                <p>
+                  En mi tiempo libre, disfruto de viajar y andar en bicicleta.
+                  Siempre estoy buscando nuevas formas de innovar y aprender más
+                  sobre mi campo.
+                </p>
+
+                <p>Sígueme en</p>
+                <ul class="about-me-social-links">
+                  <li><a href="[Enlace a tu LinkedIn]">📝 LinkedIn</a></li>
+                  <li><a href="[Enlace a tu Behance]">🖍️ Bēhance</a></li>
+                  <li><a href="[Enlace a tu GitHub]">🐈 GitHub</a></li>
+                  <li><a href="[Enlace a tu Instagram]">📸 Instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div
+          class="container text-secondary d-flex align-items-center justify-content-center"
+        >
+          <ul class="list-inline footer-info-list">
+            <li class="list-inline-item">
+              <span class="fas fa-envelope"></span>
+              angelicadiazblog@gmail.com
+            </li>
+            <li class="list-inline-item">
+              <span class="fas fa-map-marker-alt"></span>
+              Santiago de Chile
+            </li>
+            <li class="list-inline-item">
+              <span class="fas fa-phone"></span>
+              +56978385976
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

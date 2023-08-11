@@ -1,57 +1,122 @@
 .contact-icon {
-    border-radius: 1000px;
-    overflow: hidden;
-    background-color: #FBFAFB;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  border-radius: 1000px;
+  overflow: hidden;
+  background-color: #fbfafb;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-.project-outer-container, .experience-outer-container {
-    background-color: #FBFAFB;
+.project-outer-container,
+.experience-outer-container {
+  background-color: #fbfafb;
 }
 
 section {
-    padding: 12px 0;
+  padding: 75px 0;
 }
 
 footer {
-    height: 100px;
-    color: white;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-top: 1px solid #E5E9EF;
 }
 
-.footer-outer-container {
-}
-
+/* .footer-outer-container {} */
 
 .profile-photo-container {
-    height: 200px;
-    width: 200px;
-    border-radius: 1000px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 4px black;
+  height: 200px;
+  width: 200px;
+  border-radius: 1000px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px black;
 }
 
-<style>
+.btn-primary:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
 
-    .btn-primary:hover {
-        background-color: #333333;
-        border-color: #333333;
-    }
-</style>
+/* Estilos para el sidebar */
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  padding-top: 20px;
+}
+
+/* Estilos para el enlace del logo en el sidebar */
+.sidebar-brand {
+  color: white;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+/* Estilos para los enlaces en el sidebar */
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+/* Estilos para los enlaces activos en el sidebar */
+.sidebar a.active {
+  background-color: #555;
+}
+
+/* Estilos para el contenido principal */
+.content {
+  margin-left: 250px; /* Ancho del sidebar */
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 20px;
+}
+
+nav {
+  /* height: 65px; */
+  border-bottom: 1px solid #E5E9EF;
+}
+
+main {
+  padding-top: 40px;
+  flex-grow: 1;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-info-list > li {
+  padding: 0 10px;
+}
+
+li > .fas {
+  margin-right: 5px;
+}
 
 
-<h1 class="display-1">Display 1</h1>
-<h1 class="display-2">Display 2</h1>
-<h1 class="display-3">Display 3</h1>
-<h1 class="display-4">Display 4</h1>
-<h1 class="display-5">Display 5</h1>
-<h1 class="display-6">Display 6</h1>
-
-
+*::-webkit-scrollbar {
+  display: none;
+}
