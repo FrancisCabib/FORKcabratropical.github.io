@@ -26,6 +26,10 @@ footer {
   border-top: 1px solid #E5E9EF;
 }
 
+.card:hover {
+  opacity: 0.8;
+}
+
 /* .footer-outer-container {} */
 
 .profile-photo-container {
@@ -119,4 +123,45 @@ li > .fas {
 
 *::-webkit-scrollbar {
   display: none;
+}
+
+.btn-link {
+  color: #000000;
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: #656565;
+}
+
+.about-me-social-links > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.about-me-social-links > li > a {
+  display: flex;
+  align-items: center;
+}
+
+.about-me-social-links > li > a:hover {
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+.about-me-social-links > li > a > .fa-brands {
+  font-size: 1em;
+  padding-right: 8px;
+}
+
+.about-me-social-links > li {
+  padding: 0 20px;
+}
+
+.about-me-social-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em 0;
 }
