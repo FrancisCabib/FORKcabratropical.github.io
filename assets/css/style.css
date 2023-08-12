@@ -12,7 +12,7 @@
 
 .project-outer-container,
 .experience-outer-container {
-  background-color: #fbfafb;
+  background-color: #982298;
 }
 
 section {
@@ -20,6 +20,7 @@ section {
 }
 
 footer {
+  background-color: rgb(50, 236, 118);
   color: white;
   padding-top: 25px;
   padding-bottom: 15px;
